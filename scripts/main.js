@@ -10,3 +10,15 @@ function getDistanceToTreasure ({x : cX, y : cY},{x : tX, y : tY} ) // дест�
 {
     return Math.sqrt((cX - tX)**2 + (cY - tY)**2);
 }
+
+function hideTreasure (map){
+    map.height
+    map.width
+    return {
+        x: Math.floor(Math.random()*map.width),
+        y: Math.floor(Math.random()*map.height),
+    };
+
+
+}
+
